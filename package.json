@@ -12,6 +12,6 @@
   "dependencies": {
     "bluebird": "3.5.x",    
     "logger": "logger",
-    "smartystreets-api": "^0.1.4",    
+    "smartystreets-api": "^0.1.4" 
   }
 }
