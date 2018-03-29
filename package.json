@@ -12,7 +12,6 @@
   },
   "dependencies": {
     "bluebird": "3.5.x",    
-    "node-logger": "0.0.1",
     "smartystreets-api": "^0.1.4" 
   }
 }
