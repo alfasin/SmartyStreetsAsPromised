@@ -1,6 +1,6 @@
 // Example of usage
 const smartyStreets = require('SmartyStreetsAsPromised');
-const logger = require('logger');
+const logger = require('node-logger').createLogger();
     
 exports.address = function (req, res, next) {
     const {street, city, state} = req.query;
