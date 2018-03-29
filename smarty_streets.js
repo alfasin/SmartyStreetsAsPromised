@@ -1,7 +1,5 @@
 const Promise = require('bluebird');
 const logger = require('logger');
-// import SMARTY_STREETS_CREDS_ID from config
-// import SMARTY_STREETS_CREDS_TOKEN from config
 
 let smartyStreetsInstance;
 
@@ -9,7 +7,8 @@ let smartyStreetsInstance;
 exports.SmartyStreetsApi = () => {
   if (!smartyStreetsInstance) {
     const SmartyStreets = require('smartystreets-api');
-    smartyStreetsInstance = SmartyStreets(SMARTY_STREETS_CREDS_ID, SMARTY_STREETS_CREDS_TOKEN);
+    // make sure your env contains your smarty-streets id and token!
+    smartyStreetsInstance = SmartyStreets(process.env.SMARTY_STREETS_CREDS_ID, process.env.SMARTY_STREETS_CREDS_TOKEN);
     smartyStreetsInstance.addressPromised = Promise.promisify(smartyStreetsInstance.address, {
       context: smartyStreetsInstance,
       multiArgs: true
