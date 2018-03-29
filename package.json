@@ -1,5 +1,5 @@
 {
-  "name": "SmartyStreetsAsPromised",
+  "name": "smarty-streets-as-promised",
   "version": "1.0.0",
   "description": "A promisified version of Smarty-Streets API using bluebird",
   "author": "Nir Alfasi",  
