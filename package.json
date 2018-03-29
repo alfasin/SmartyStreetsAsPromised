@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "A promisified version of Smarty-Streets API using bluebird",
   "author": "Nir Alfasi",
-  "main" : "smarty_streets"
+  "main" : "smarty_streets",
   "keywords": [
     "smartystreets", "promise"
   ],
