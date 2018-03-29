@@ -1,5 +1,4 @@
 const Promise = require('bluebird');
-const logger = require('logger');
 
 let smartyStreetsInstance;
 
