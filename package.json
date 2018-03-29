@@ -1,6 +1,6 @@
 {
   "name": "smarty-streets-as-promised",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A promisified version of Smarty-Streets API using bluebird",
   "author": "Nir Alfasi",
   "main" : "smarty_streets",
