@@ -1,0 +1,17 @@
+{
+  "name": "SmartyStreetsAsPromised",
+  "version": "1.0.0",
+  "description": "A promisified version of Smarty-Streets API using bluebird",
+  "author": "Nir Alfasi",  
+  "keywords": [
+    "smartystreets", "promise"
+  ],
+  "engines": {
+    "node": "8.4.0"
+  },
+  "dependencies": {
+    "bluebird": "3.5.x",    
+    "logger": "logger",
+    "smartystreets-api": "^0.1.4",    
+  }
+}
