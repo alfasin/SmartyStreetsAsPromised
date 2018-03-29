@@ -1,5 +1,7 @@
 # smarty-streets-as-promised
 
-SmartyStreets API described in: https://smartystreets.com/docs/cloud/us-street-api is using callbacks, this is a [promisification](http://bluebirdjs.com/docs/api/promise.promisify.html) of the API using bluebird.
+We all know what's the [callback hell](http://callbackhell.com/) and glad that since ES5 we don't have to deal with it, now we have Promises and functions like async await. Yet, some libraries still require using callbacks SmartyStreets API (described in: https://smartystreets.com/docs/cloud/us-street-api) is one of them. 
+
+This package is a [promisification](http://bluebirdjs.com/docs/api/promise.promisify.html) of SmartyStreets API using bluebird.
 
 Checkout [example.js](example.js) for usage and [.env](.env) as an example of how to set your environment. 
