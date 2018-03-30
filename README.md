@@ -7,3 +7,5 @@ We all know what's the [callback hell](http://callbackhell.com/) and glad that s
 This package is a [promisification](http://bluebirdjs.com/docs/api/promise.promisify.html) of SmartyStreets API using bluebird.
 
 Checkout [example.js](example.js) for usage and [.env](.env) as an example of how to set your environment. 
+
+Kudus for [Hagai Hanan](https://github.com/hagaihanan) for his help!
