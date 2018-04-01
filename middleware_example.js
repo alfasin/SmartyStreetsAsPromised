@@ -6,6 +6,11 @@ const smartyStreets = require('./smarty_streets')();
 var express = require('express');
 var app = express();
 
+// in order to be able to run this example you should change
+// package.json line:
+// "main": "smarty_streets.js"
+// to point here, and set the environment variable (like .env_example)
+// to contain _real_ ID and token  
 app.get('/', function (req, res, next) {
     const {street, city, state} = req.query;
     console.log(`request for ${street} ${city} ${state}`);
